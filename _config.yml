@@ -1,0 +1,12 @@
+title: nir
+description: Nir's blog and website
+theme: just-the-docs
+
+url: https://nirlanka.github.io
+
+aux_links:
+  My GitHub: https://github.com/nirlanka
+
+sass:
+  quiet_deps: true
+  # to stop deprecation warnings for sass-convertor
