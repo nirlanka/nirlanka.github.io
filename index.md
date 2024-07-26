@@ -5,7 +5,9 @@ layout: home
 
 # nir's blog
 
-Test 123 hello test abc
+Linux, Apple, mobile, web, etc.
+
+[Github.com](https://github.com/nirlanka)
 
 ----
 
