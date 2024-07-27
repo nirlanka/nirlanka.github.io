@@ -7,6 +7,8 @@ layout: post
 
 ![Image](../images/Screenshot 2024-07-27 at 8.26.42 PM.png)
 
+Example repo: [Example repo]
+
 ### Prerequisites:
 - OS: Mac OS X
 - Homebrew
@@ -53,3 +55,7 @@ require("lspconfig")["pyright"].setup {
   -- npm i -g pyright
 }
 ```
+
+----
+
+[Example repo]: https://github.com/nirlanka/youtube-dl-ytmusic
