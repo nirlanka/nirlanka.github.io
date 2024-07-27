@@ -29,11 +29,40 @@ pipenv install xerox
 
 This creates a `Pipfile` and `Pipfile.lock`. We can add `Pipfile` to Git.
 
+```toml
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+xerox = "*"
+yt-dlp = {extras = ["default"], version = "*"}
+
+[dev-packages]
+yt-dlp = "*"
+
+[requires]
+python_version = "3.12"
+```
+
+Similarly, you can uninstall with:
+```sh
+pipenv uninstall xerox
+```
+
 ## Opening VIM (NeoVIM) with pipenv packages
 
 ```sh
 pipenv shell
 nvim
+```
+
+You can use `python` commands (e.g. `python run code-file-name`) in this shell. Also, no need to specify `python3`.
+
+You can exit `pipenv shell` with:
+```sh
+exit
 ```
 
 ### Python support in NeoVIM (init.lua version)
